@@ -1,0 +1,10 @@
+name: hello-sample
+on: [push]
+jobs:
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: echo "Hello code"
+      - run: go run hello.go     
