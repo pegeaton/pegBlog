@@ -25,15 +25,31 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 * GitHub Actions workflow run on GitHub hosted virtual machines or self-hosted machines
 
 ## GitHub Actions
-[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. These workflows are used to automate tasks within the repository; the workflows are triggered by events. 
+[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate tasks within the repository and execution is triggered by events. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
 
-GitHub Actions are stored in a YAML file your GitHub repository in the .github/workflows directory. This file contains the definition of the GitHub Actions and is described using a YAML syntax 
+To use GitHub Actions, create a .github/workflows directory in your repository and create a YAML file containing GitHub Actions workflow descriptions using YAML syntax.
 
 Let's take a look at the anatomy of a simple GitHub Action.
 
-### Simple GitHub Actions
-This GitHub Actions workflow runs a bash command to echo the classic "Hello World!" statement.
+This GitHub Actions workflow runs a bash command to echo the classic "Hello World!" statement and then runs a go program to display "Hello World!".
 
+<insert graphic>
+  
+The file contains:
+* the name of the GitHub Action
+* the event type 
+* 
+
+### Simple GitHub Actions
+
+flowchart -- show diagram
+
+spin up ubuntu system
+check out repository
+load file??
+
+load any packages needed (npm ... xxx)
+run code
 
 
 
