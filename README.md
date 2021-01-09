@@ -4,24 +4,21 @@ A electic journal through the virtual world of modern applications, AI, and soft
 ## Virtual World
 
 ### Modern Applications
-### [GitHub Actions in the Modern Apps Ninja Repository](ninjaActions/NinjaGitHubActions.md)
+#### [GitHub Actions in the Modern Apps Ninja Repository](ninjaActions/NinjaGitHubActions.md)
 
 ## Artificial Intelligence
 
 ### Constraint-Based Reasoning
-#### Collaborative Constraint-Based Reasoning
+* Collaborative Constraint-Based Reasoning
 
 ### Software Development
 
 ## Physcial World Adventures
 
-### Mountaineering
-
-### Sailing
-
-### Running
-
-### Living the Van Life
+* Mountaineering
+* Sailing
+* Running
+* Living the Van Life
 
 
 
