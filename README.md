@@ -4,7 +4,7 @@ A electic journal through the virtual world of modern applications, AI, and soft
 ## Virtual World
 
 ### Modern Applications
-#### [GitHub Actions in the Modern Apps Ninja Repository](ninjaActions/NinjaGitHubActions.md)
+* [GitHub Actions in the Modern Apps Ninja Repository](ninjaActions/NinjaGitHubActions.md)
 
 ## Artificial Intelligence
 
