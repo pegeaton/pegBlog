@@ -14,6 +14,7 @@ The [Modern Apps Ninja](https:https://modernapps.ninja/) learning community cons
 The content, membership, and overall [Modern Apps Ninja](https:https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and admnistrative materials.
 
 ![Modern Apps Ninja Repository](../images/modernapps-top-level.png =250x)
+<img src="../images/modernapps-top-level.png" width="250" />
 
 In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) learning management system (edX platform) is also used for delivering free courses.
 
