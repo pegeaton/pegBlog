@@ -29,22 +29,26 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 
 To use GitHub Actions, create a .github/workflows directory in your repository and create a YAML file containing GitHub Actions workflow descriptions using YAML syntax.
 
-Let's take a look at the anatomy of a simple GitHub Action.
+Let's take a look at the anatomy of a simple GitHub Actions workflow that runs a bash command to echo the classic "Hello World!" statement and then runs a go program to display "Hello World!".
 
-![hello-action.yml](hello-action.png)
+![hello-action.yml](../images/hello-action.png)
 
-This GitHub Actions workflow runs a bash command to echo the classic "Hello World!" statement and then runs a go program to display "Hello World!".
+
 
  
 The file contains:
-* the name of the GitHub Action
-* the event type (in this case, a push event)
-* jobs -- these are the items that will be queued for execution 
-* each job is given a name
+* the name of the GitHub Actions: hello-sample 
+* the event type: push (when a commit is made in this repository the workflow will run)
+* jobs: name of the jobs to be queued for execution (in this case only a single job)
+* the job name: echo-hello
+* runs-on: ubuntu-latest - indicates the type of machine and version to be used for executing the job
+* uses: lists the repository and files to set up for execution
+* run: 
+
 
 ### Simple GitHub Actions
 
-flowchart -- show diagram
+f
 
 spin up ubuntu system
 check out repository
