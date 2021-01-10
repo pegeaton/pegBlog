@@ -45,6 +45,9 @@ The workflow definitions have an enormous set of options to support CI/CD pipeli
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The GitHub Marketplace provides a venue for creators to share GitHub Actions with the GitHub community, 
 For example, the following list provides examples of GitHub Actions for secrets:
+
+![](github-actions-marketplace-secrets.png)
+
 * Vault Secrets by hashicorp
 * Secrets Sync Action by google
 * Azure key vault - Get Secrets by Azure
