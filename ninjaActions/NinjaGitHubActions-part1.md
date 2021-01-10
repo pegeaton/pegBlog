@@ -58,7 +58,7 @@ marketplace graphic — show secrets
 
 
 
-The modernapps.ninja website is supported through a ![hugo](https://gohugo.io/) framework.
+The modernapps.ninja website is supported through a [hugo](https://gohugo.io/) framework.
 
 
 
