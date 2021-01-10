@@ -1,5 +1,6 @@
 # GitHub Actions in the Modern Apps Ninja Repository
-In this blog series, we explore automated workflows supporting the Modern Apps Ninja program:
+
+This blog series is intended for adminstrators and members of the Modern Apps Ninja program. In the series, we explore automated workflows supporting the Modern Apps Ninja program:
 
 * [Part 1](./NinjaGitHubActions-part1.md) introduces the Modern Apps Ninja GitHub Repository, GitHub Actions, and the GitHub Actions Marketplace.
 * [Part 2](./NinjaGitHubActions-part2.md) demonstrates using the GitHub Actions Ecosystem as leveraged by the Modern Apps Ninja administrators,
