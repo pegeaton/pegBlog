@@ -46,7 +46,7 @@ The workflow definitions have an enormous set of options to support CI/CD pipeli
 The GitHub Marketplace provides a venue for creators to share GitHub Actions with the GitHub community, 
 For example, the following list provides examples of GitHub Actions for secrets:
 
-![](github-actions-marketplace-secrets.png)
+![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 
 * Vault Secrets by hashicorp
 * Secrets Sync Action by google
@@ -55,7 +55,7 @@ For example, the following list provides examples of GitHub Actions for secrets
 * Nightfall DLP Action by nightfallai
 
 
-
+## GitHub Actions in the Modern Apps Ninja repository
 
 * Advantages and Disadvantages of using ecosystem workflows
 * GitHub Actions used in the Ninja repository
@@ -63,7 +63,7 @@ For example, the following list provides examples of GitHub Actions for secrets
 marketplace graphic — show secrets
 
 
-## GitHub Actions in the Modern Apps Ninja repository
+
 
 The modernapps.ninja website is supported through a ![hugo](https://gohugo.io/) framework.
 
