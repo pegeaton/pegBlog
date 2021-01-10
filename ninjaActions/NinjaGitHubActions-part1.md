@@ -43,16 +43,9 @@ The file contains:
 The workflow definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution. Workflows are located in a .github/workflows directory within a repository. The definition file uses YAML syntax.
 
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
-The GitHub Marketplace provides a venue for creators to share GitHub Actions with the GitHub community, 
-For example, the following list provides examples of GitHub Actions for secrets:
+The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. For example, the following list provides examples of GitHub Actions for secrets:
 
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
-
-* Vault Secrets by hashicorp
-* Secrets Sync Action by google
-* Azure key vault - Get Secrets by Azure
-* Get Secret Manager secrets by google-github-actions
-* Nightfall DLP Action by nightfallai
 
 
 ## GitHub Actions in the Modern Apps Ninja repository
