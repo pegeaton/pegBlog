@@ -49,14 +49,12 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 
-
 ## GitHub Actions in the Modern Apps Ninja repository
 
 * Advantages and Disadvantages of using ecosystem workflows
 * GitHub Actions used in the Ninja repository
 * Recommendations for repository administrators
 marketplace graphic — show secrets
-
 
 
 
