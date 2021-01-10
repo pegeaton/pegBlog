@@ -13,8 +13,7 @@ The [Modern Apps Ninja](https:https://modernapps.ninja/) learning community cons
 ### Modern Apps Ninja GitHub repository
 The content, membership, and overall [Modern Apps Ninja](https:https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and admnistrative materials.
 
-![Modern Apps Ninja Repository](../images/modernapps-top-level.png =250x)
-<img src="../images/modernapps-top-level.png" width="250" />
+![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
 
 In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) learning management system (edX platform) is also used for delivering free courses.
 
@@ -32,14 +31,16 @@ To use GitHub Actions, create a .github/workflows directory in your repository a
 
 Let's take a look at the anatomy of a simple GitHub Action.
 
+![hello-action.yml](hello-action.png)
+
 This GitHub Actions workflow runs a bash command to echo the classic "Hello World!" statement and then runs a go program to display "Hello World!".
 
-<insert graphic>
-  
+ 
 The file contains:
 * the name of the GitHub Action
-* the event type 
-* 
+* the event type (in this case, a push event)
+* jobs -- these are the items that will be queued for execution 
+* each job is given a name
 
 ### Simple GitHub Actions
 
