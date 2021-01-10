@@ -25,67 +25,46 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 * GitHub Actions workflow run on GitHub hosted virtual machines or self-hosted machines
 
 ## GitHub Actions
-[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate tasks within the repository and execution is triggered by events. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
-
-To use GitHub Actions, create a .github/workflows directory in your repository and create a YAML file containing GitHub Actions workflow descriptions using YAML syntax.
+[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate tasks within a repository and execution is triggered by events. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
 
 Let's take a look at the anatomy of a simple GitHub Actions workflow that runs a bash command to echo the classic "Hello World!" statement and then runs a go program to display "Hello World!".
 
 ![hello-action.yml](../images/hello-action.png)
 
-
-
- 
 The file contains:
 * the name of the GitHub Actions: hello-sample 
 * the event type: push (when a commit is made in this repository the workflow will run)
 * jobs: name of the jobs to be queued for execution (in this case only a single job)
 * the job name: echo-hello
 * runs-on: ubuntu-latest - indicates the type of machine and version to be used for executing the job
-* uses: lists the repository and files to set up for execution
-* run: 
+* uses: checks out the repository
+* run: indicates code to execute
 
-
-### Simple GitHub Actions
-
-f
-
-spin up ubuntu system
-check out repository
-load file??
-
-load any packages needed (npm ... xxx)
-run code
-
-
-
-
-### Event triggers
-There are lots of defined event types to trigger the execution of the actions and the documenta 
-
-
-* GitHub Actions
-* GitHub Actions in the Modern Apps Ninja repository
-* Benefits for contributors and administrators
-
-Graphics — ninja program
-existing actions — graphics
-
-flowchart showing action need/sequence
-
+The workflow definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution. Workflows are located in a .github/workflows directory within a repository. The definition file uses YAML syntax.
 
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The GitHub Marketplace provides a venue for creators to share GitHub Actions with the GitHub community, 
+For example, the following list provides examples of GitHub Actions for secrets:
+* Vault Secrets by hashicorp
+* Secrets Sync Action by google
+* Azure key vault - Get Secrets by Azure
+* Get Secret Manager secrets by google-github-actions
+* Nightfall DLP Action by nightfallai
+
+
+
 
 * Advantages and Disadvantages of using ecosystem workflows
 * GitHub Actions used in the Ninja repository
 * Recommendations for repository administrators
 marketplace graphic — show secrets
 
-The following list provides and example of GitHub Actions for secrets:
-* Vault Secrets by hashicorp
-* Secrets Sync Action by google
-* Azure key vault - Get Secrets by Azure
-* Get Secret Manager secrets by google-github-actions
-* Nightfall DLP Action by nightfallai
+
+## GitHub Actions in the Modern Apps Ninja repository
+
+The modernapps.ninja website is supported through a ![hugo](https://gohugo.io/) framework.
+
+
+
+* Benefits for contributors and administrators
 
