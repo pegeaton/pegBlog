@@ -40,7 +40,9 @@ The file contains:
 * uses: checks out the repository
 * run: indicates code to execute
 
-The workflow definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution. Workflows are located in a .github/workflows directory within a repository. The definition file uses YAML syntax.
+The workflow definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including  
+
+Workflows are located in a .github/workflows directory within a repository. The definition file uses YAML syntax.
 
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. For example, the following list provides examples of GitHub Actions for secrets:
