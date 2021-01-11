@@ -5,7 +5,7 @@ In this blog, we explore GitHub Actions and GitHub Actions in the Modern Apps Ni
 * GitHub Actions Marketplace: An Ecosytem of GitHub Actions
 
 ## Modern Apps Ninja Community and Repository
-The [Modern Apps Ninja](https:https://modernapps.ninja/) learning community consists of students and professional cloud native practitioners, learning and working together to apply new cloud native technologies skills. A collaborative, community-driven approach to developing and curating content is fundamental to the program mission.  Community members develop the key content, including: courses, labs and hackathons focused on modern applications and application platforms.  Experiential learning opportunities are provided through [GitOps](https://www.youtube.com/watch?v=r50tRQjisxw) methodologies embedded throughout courses and on-going administration of the program.
+The [Modern Apps Ninja](https:https://modernapps.ninja/) learning community consists of students and professional cloud native practitioners, learning and working together to apply new cloud native technologies skills. A collaborative, community-driven approach to developing and curating content is fundamental to the program mission.  Community members develop the key content, including: courses, labs and hackathons focused on modern applications and application platforms.  Experiential learning opportunities are embedded throughout courses and on-going administration of the program.
 
 ### GitHub 
 [GitHub](https://github.com) is more than a source code control system, it is truly a collaboration platform. GitHub is well documented and there are many different tutorials to help you get started.  One of my favorites is the [GitHub Learning Lab](https://lab.github.com/). Check it out and join the [Modern Apps Ninja](https:https://modernapps.ninja/) community!
@@ -65,14 +65,25 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 The marketplace contains a variety of contributions supporting the [hugo](https://gohugo.io/) framework (static website generator). 
                                                           
 ### GitHub Actions in the Modern Apps Ninja repository
-There are many advantages and reasons to use open source contributions -- my favorite is Standing on the Shoulders of Giants: leverage the work of others on already solved problems rather than always re-inventing the wheel. 
+There are many advantages and reasons to use open source contributions:
+* standing on the shoulders of giants; leverage the work of others on already solved problems rather than re-inventing the wheel
+* providing opportunities for learning
+* improving software quality by exposing code to a broad community finds bugs more quickly
+* focusing development on what is important to community members
 
 The deployment of the modernapps.ninja website leverages a [hugo](https://gohugo.io/) github actions contribution by peaceiris. <img src="../images/marketplace-hugo-peaceiris.png" height="250" width="400" alt="marketplace hugo pic - peaceiris">
 
 Here is a screenshot of the GitHub Actions description for the hugo build.
+<img src="../images/hugobuild.png" height="350" width="500" alt="hugo-build.yml">
 
-<img src="../images/hugo-yml.png" height="350" width="500" alt="hugo-build.yml">
+As we begin to use GitHub Actions in a production environment, the workflow is a little more complex:
+* this workflow is triggered by a push to the main branch of the ninja repository (not on push to other branches)
+* a specific ubuntu version is specified as the build machine type; this ensures the repository is run on a matching os version
+* the uses: checkout ensures subdirectories in the repository are loaded
+* the uses: ensures the latest version of the hugo package is downloaded and installed
+* github_token is specified for authentication
 
-* Recommendations for repository administrators
+## Summary
+GitHub Actions are used to support CI/CD in the Modern Apps Ninja repository. 
 
 
