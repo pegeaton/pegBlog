@@ -2,11 +2,11 @@
 ## Examples: Modern Apps Ninja GitHub Actions
 * Workflow Runner
 * Handling Secrets
+* Versioning
+* Troubleshooting GitHub Actions
 * Testing GitHub Actions
 * Testing considerations
-* Troubleshooting GitHub Actions
 
-https://gohugo.io/
 
 ## Automated Assignment Evaluation
 1. Contributor completes assignment file
