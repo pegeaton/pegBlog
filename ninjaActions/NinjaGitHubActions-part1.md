@@ -17,7 +17,7 @@ The content, membership, and overall [Modern Apps Ninja](https:https://modernapp
 ![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
 -->
 
-<img src="../images/modernapps-top-level.png" height="400" width="600" alt="hello-action" style="border:3px solid black">
+<img src="../images/modernapps-top-level.png" height="3500" width="600" alt="hello-action" style="border:3px solid black">
 
 In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) learning management system (edX platform) is also used for delivering free courses.
 
@@ -42,7 +42,7 @@ Let's take a look at the anatomy of a simple GitHub Actions workflow that does t
 ![hello-action.yml](../images/hello-action.png)
 -->
 
-<img src="../images/hello-action.png" height="400" width="600" alt="hello-action" style="border:3px solid black">
+<img src="../images/hello-action.png" height="350" width="600" alt="hello-action" style="border:3px solid black">
 
 As you can see in the graphic, the file contains:
 * the name of the GitHub Actions: hello-sample 
@@ -55,7 +55,7 @@ As you can see in the graphic, the file contains:
 
 Workflows are located in a .github/workflows directory within a repository. The definition file uses YAML syntax.
 
-The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issues (
+The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issues, etc.
 
 
 
@@ -66,7 +66,7 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 -->
 
-<img src="../images/github-actions-marketplace-secrets.png" height="400" width="400" alt="marketplace secrets pic">
+<img src="../images/github-actions-marketplace-secrets.png" height="350" width="500" alt="marketplace secrets pic" style="border:3px solid black">
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
 
