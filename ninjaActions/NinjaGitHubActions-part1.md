@@ -24,31 +24,40 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 * fully integrated into GitHub
 * GitHub Actions workflow run on GitHub hosted virtual machines or self-hosted machines
 
+As students and practioners of Cloud Native technologies, members often contribute lab guides for a variety of technology areas. 
+Contributors submit content to the GitHub repository and are engaged in a gitops process. Contributions take many different forms, including creating issue tickets, resolving issues, making pull requests, and creating GitHub Actions to support CI/CD.
+As part of making the contribuions, members 
+
+
 ## GitHub Actions
 [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate tasks within a repository and execution is triggered by events. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
 
-Let's take a look at the anatomy of a simple GitHub Actions workflow that runs a bash command to echo the classic "Hello World!" statement and then runs a go program to display "Hello World!".
+Let's take a look at the anatomy of a simple GitHub Actions workflow that does two things: (1) runs a bash command to echo the classic "Hello World!" statement and (2) runs a go program to display "Hello World!".
 
 ![hello-action.yml](../images/hello-action.png)
 
-The file contains:
+As you can see in the graphic, the file contains:
 * the name of the GitHub Actions: hello-sample 
 * the event type: push (when a commit is made in this repository the workflow will run)
 * jobs: name of the jobs to be queued for execution (in this case only a single job)
 * the job name: echo-hello
 * runs-on: ubuntu-latest - indicates the type of machine and version to be used for executing the job
-* uses: checks out the repository
+* uses: checks out the repository (or download and install packages)
 * run: indicates code to execute
 
-The workflow definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including  
-
 Workflows are located in a .github/workflows directory within a repository. The definition file uses YAML syntax.
+
+The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issues (
+
+
 
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. For example, the following list provides examples of GitHub Actions for secrets:
 
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 
+<img src=../images/github-actions-marketplace-secrets.png" height=100 width=100 />
+                                                          
 ## GitHub Actions in the Modern Apps Ninja repository
 
 * Advantages and Disadvantages of using ecosystem workflows
