@@ -5,13 +5,13 @@ In this blog, we explore GitHub Actions and GitHub Actions in the Modern Apps Ni
 * GitHub Actions Marketplace: An Ecosytem of GitHub Actions
 
 ## Modern Apps Ninja Community and Repository
-The [Modern Apps Ninja](https:https://modernapps.ninja/) learning community consists of students and professional cloud native practitioners, learning and working together to apply new cloud native technologies skills. A collaborative, community-driven approach to developing and curating content is fundamental to the program mission.  Community members develop the key content, including: courses, labs and hackathons focused on modern applications and application platforms.  Experiential learning opportunities are embedded throughout courses and on-going administration of the program.
+The [Modern Apps Ninja](https://modernapps.ninja/) learning community consists of students and professional cloud native practitioners, learning and working together to apply new cloud native technologies skills. A collaborative, community-driven approach to developing and curating content is fundamental to the program mission.  Community members develop the key content, including courses, labs and hackathons focused on modern applications and application platforms.  Experiential learning opportunities are embedded throughout courses and on-going administration of the program.
 
 ### GitHub 
 [GitHub](https://github.com) is more than a source code control system, it is truly a collaboration platform. GitHub is well documented and there are many different tutorials to help you get started.  One of my favorites is the [GitHub Learning Lab](https://lab.github.com/). Check it out and join the [Modern Apps Ninja](https:https://modernapps.ninja/) community!
 
 ### Modern Apps Ninja GitHub repository
-The content, membership, and overall [Modern Apps Ninja](https:https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and admnistrative materials.
+The content, membership, and overall [Modern Apps Ninja](https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and admnistrative materials.
 
 <!---
 ![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
