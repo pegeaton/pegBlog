@@ -56,7 +56,7 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 
-<img src="../images/github-actions-marketplace-secrets.png" height="100" width="100">
+<img src="../images/github-actions-marketplace-secrets.png" height="300" width="500">
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
 
