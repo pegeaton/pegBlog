@@ -13,7 +13,11 @@ The [Modern Apps Ninja](https:https://modernapps.ninja/) learning community cons
 ### Modern Apps Ninja GitHub repository
 The content, membership, and overall [Modern Apps Ninja](https:https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and admnistrative materials.
 
+<!---
 ![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
+-->
+
+<img src="../images/modernapps-top-level.png" height="400" width="600" alt="hello-action" style="border:3px solid black">
 
 In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) learning management system (edX platform) is also used for delivering free courses.
 
@@ -34,7 +38,11 @@ As part of making the contribuions, members
 
 Let's take a look at the anatomy of a simple GitHub Actions workflow that does two things: (1) runs a bash command to echo the classic "Hello World!" statement and (2) runs a go program to display "Hello World!".
 
+<!---
 ![hello-action.yml](../images/hello-action.png)
+-->
+
+<img src="../images/hello-action.png" height="400" width="600" alt="hello-action" style="border:3px solid black">
 
 As you can see in the graphic, the file contains:
 * the name of the GitHub Actions: hello-sample 
@@ -58,7 +66,7 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 -->
 
-<img src="../images/github-actions-marketplace-secrets.png" height="500" width="300">
+<img src="../images/github-actions-marketplace-secrets.png" height="400" width="400" alt="marketplace secrets pic">
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
 
