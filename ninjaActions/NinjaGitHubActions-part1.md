@@ -62,13 +62,10 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 -->
 <img src="../images/github-actions-marketplace-secrets.png" height="350" width="500" alt="marketplace secrets pic" style="border:3px solid black">
 
-### GitHub Marketplace Hugo Example
-<img src="../images/marketplace-hugo.png" height="350" width="500" alt="marketplace hugo pic">                      
-marketplace-hugo.png
+The marketplace contains a variety of contributions supporting the hugo 
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
-The modernapps.ninja website is supported through a [hugo](https://gohugo.io/) framework community contribution by peaceiris.
-<img src="../images/marketplace-hugo-peaceiris.png" height="350" width="500" alt="marketplace hugo pic - peaceiris">
+The modernapps.ninja website is supported through a [hugo](https://gohugo.io/) framework community contribution by peaceiris. <img src="../images/marketplace-hugo-peaceiris.png" height="250" width="400" alt="marketplace hugo pic - peaceiris">
 
 
 
