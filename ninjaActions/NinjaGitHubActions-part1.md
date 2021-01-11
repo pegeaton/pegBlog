@@ -27,11 +27,11 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 * fully integrated into GitHub
 * GitHub Actions workflow run on GitHub hosted virtual machines or self-hosted machines
 
-As students and practitioners of Cloud Native technologies, members often contribute lab guides for a variety of technology areas. Contributors submit content to the GitHub repository and are engaged in continuous integration processes. Contributions take many different forms including: creating issue tickets, resolving issues, making pull requests, creating GitHub Actions to support CI/CD, technical writing, and code development. 
+As students and practitioners of Cloud Native technologies, members often contribute lab guides for a variety of technology areas. Contributors submit content to the GitHub repository and are engaged in continuous integration processes. Contributions take many different forms including creating issue tickets, resolving issues, making pull requests, creating GitHub Actions to support CI/CD, technical writing, and code development. 
 Experiential learning is a key principle of the program; providing members an opportunity to advance not only their cloud native knowledge but practice skills by actively engaging in the community. 
 
 ## GitHub Actions
-[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate tasks within a repository and execution is triggered by events. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
+[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate execution of tasks triggered by events within a repository. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
 
 Let's take a look at the structure of a simple GitHub Actions workflow that does two things: (1) runs a bash command to echo the classic "Hello World!" statement and (2) runs a go program to display "Hello World!".  The purpose is to get a sense of the major parts of the anatomy and understand the power of and flexibility of each area of the workflow. We continue to dive deeper into these areas in subsequents articles. 
 
