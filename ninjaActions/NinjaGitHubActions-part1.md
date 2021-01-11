@@ -11,17 +11,17 @@ The [Modern Apps Ninja](https://modernapps.ninja/) learning community consists o
 [GitHub](https://github.com) is more than a source code control system, it is truly a collaboration platform. GitHub is well documented and there are many different tutorials to help you get started.  One of my favorites is the [GitHub Learning Lab](https://lab.github.com/). Check it out and join the [Modern Apps Ninja](https:https://modernapps.ninja/) community!
 
 ### Modern Apps Ninja GitHub repository
-The content, membership, and overall [Modern Apps Ninja](https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and admnistrative materials.
+The content, membership, and overall [Modern Apps Ninja](https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and administrative materials.
 
 <!---
 ![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
 -->
 <img src="../images/modernapps-top-level.png" height="350" width="600" alt="hello-action">
 
-In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) learning management system (edX platform) is also used for delivering free courses.
+In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) site is the frontend for the modernapps.ninja learning management system (an edX platform) used to support delivering some of the free courses. The power and complexity of leveraging multiple systems is demonstrated throughout the site. 
 
 ### The need for automated workflows
-Automation is necessary to ensure consistent operations and rapid delivery of software supporting the program. Workflows are used to improve quality and efficiency when delivering code to production. For example, the site https://modernapps.ninja/ is fully automated and automatically generated from GitHub. The automation helps with standarization efforts and testing. While there are many CI/CD supporting technologies (Tekton pipelines, Jenkins, etc.) the use of GitHub Actions has a number of benefits, even at the most basic, free subscription level, including: 
+Automation is necessary to ensure consistent operations and rapid delivery of software supporting the program. Workflows are used to improve quality and efficiency when delivering code to production. For example, the site https://modernapps.ninja/ is fully automated and automatically generated from GitHub. The automation helps with standardization efforts and testing. While there are many CI/CD supporting technologies (Tekton pipelines, Jenkins, etc.) the use of GitHub Actions has a number of benefits, even at the most basic, free subscription level, including: 
 * 2,000 Actions minutes/month are free for public repositories
 * 500MB of GitHub Packages storage free for public repositories
 * fully integrated into GitHub
