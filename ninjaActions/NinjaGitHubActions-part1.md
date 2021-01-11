@@ -27,7 +27,7 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 * fully integrated into GitHub
 * GitHub Actions workflow run on GitHub hosted virtual machines or self-hosted machines
 
-As students and practioners of Cloud Native technologies, members often contribute lab guides for a variety of technology areas. 
+As students and practitioners of Cloud Native technologies, members often contribute lab guides for a variety of technology areas. 
 Contributors submit content to the GitHub repository and are engaged in continuous integration processes. Contributions take many different forms including: creating issue tickets, resolving issues, making pull requests, creating GitHub Actions to support CI/CD, technical writing, and code development. 
 The experiential learning is a key principle of the program.  Providing members an opportunity to advance not only their cloud native knowledge but practice skills by actively engaging in the community. 
 
