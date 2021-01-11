@@ -56,15 +56,17 @@ Workflows are located in a .github/workflows directory within a repository; the 
 
 
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
-The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. For example, the following graphics show examples of GitHub Actions for secrets and for hugo (static website generator). 
+The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. The following graphics show examples of GitHub Actions for secrets and for hugo (static website generator). 
 
+### GitHub Marketplace Secrets Example
 <!---
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
 -->
-
 <img src="../images/github-actions-marketplace-secrets.png" height="350" width="500" alt="marketplace secrets pic" style="border:3px solid black">
-  <img src="../images/marketplace-hugo.png" height="350" width="500" alt="marketplace secrets pic" style="border:3px solid black">                      
 
+### GitHub Marketplace Hugo Example
+<img src="../images/marketplace-hugo.png" height="350" width="500" alt="marketplace hugo pic" style="border:3px solid black">                      
+marketplace-hugo.png
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
 
