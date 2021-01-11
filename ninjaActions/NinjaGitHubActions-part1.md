@@ -54,9 +54,11 @@ The workflow YAML file definitions have an enormous set of options to support CI
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. For example, the following list provides examples of GitHub Actions for secrets:
 
+<!---
 ![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
+-->
 
-<img src="../images/github-actions-marketplace-secrets.png" height="300" width="500">
+<img src="../images/github-actions-marketplace-secrets.png" height="500" width="300">
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
 
