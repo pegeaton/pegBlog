@@ -11,7 +11,9 @@ A electic journey through the virtual world of modern applications, AI, and soft
 ### Constraint-Based Reasoning
 * Collaborative Constraint-Based Reasoning
 
+
 ### Software Development
+* SDLC: continous feedback loops
 
 
 ## Physcial World Adventures
@@ -20,6 +22,4 @@ A electic journey through the virtual world of modern applications, AI, and soft
 * Sailing
 * Running
 * Living the Van Life
-
-
 
