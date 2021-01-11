@@ -2,8 +2,8 @@
 
 This blog series is intended for administrators and members of the Modern Apps Ninja program. In the series, we explore automated workflows supporting the Modern Apps Ninja program:
 
-* [Part 1](./NinjaGitHubActions-part1.md) introduces the Modern Apps Ninja GitHub Repository, GitHub Actions, and the GitHub Actions Marketplace.
-* [Part 2](./NinjaGitHubActions-part2.md) demonstrates using the GitHub Actions Ecosystem as leveraged by the Modern Apps Ninja administrators.
+* [Part 1](./NinjaGitHubActions-part1.md) introduces the Modern Apps Ninja GitHub Repository, GitHub Actions, the GitHub Actions Marketplace, and demonstrates GitHub Actions Ecosystem workflows as leveraged by the Modern Apps Ninja administrators.
+* [Part 2](./NinjaGitHubActions-part2.md) takes a closer look at runners, versioning, troubleshooting, and testing GitHub Actions.
 * [Part 3](./NinjaGitHubActions-part3.md) explores a more complex GitHub Actions workflow, written to support Modern Apps Ninja member registration; handling secrets and environment variables.
   
 
