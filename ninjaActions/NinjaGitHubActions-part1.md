@@ -16,7 +16,6 @@ The content, membership, and overall [Modern Apps Ninja](https:https://modernapp
 <!---
 ![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
 -->
-
 <img src="../images/modernapps-top-level.png" height="350" width="600" alt="hello-action">
 
 In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) learning management system (edX platform) is also used for delivering free courses.
@@ -54,7 +53,6 @@ As you can see in the graphic, the file contains:
 
 Workflows are located in a .github/workflows directory within a repository; the definition file uses YAML syntax.  The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issue creation, etc.
 
-
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. The following graphics show examples of GitHub Actions for secrets and for hugo (static website generator). 
 
@@ -65,20 +63,18 @@ The [GitHub Marketplace](https://github.com/marketplace) provides a venue for cr
 <img src="../images/github-actions-marketplace-secrets.png" height="350" width="500" alt="marketplace secrets pic" style="border:3px solid black">
 
 ### GitHub Marketplace Hugo Example
-<img src="../images/marketplace-hugo.png" height="350" width="500" alt="marketplace hugo pic" style="border:3px solid black">                      
+<img src="../images/marketplace-hugo.png" height="350" width="500" alt="marketplace hugo pic">                      
 marketplace-hugo.png
                                                           
 ## GitHub Actions in the Modern Apps Ninja repository
+The modernapps.ninja website is supported through a [hugo](https://gohugo.io/) framework community contribution by peaceiris.
+<img src="../images/marketplace-hugo-peaceiris.png" height="350" width="500" alt="marketplace hugo pic - peaceiris">
+
+
 
 * Advantages and Disadvantages of using ecosystem workflows
 * GitHub Actions used in the Ninja repository
 * Recommendations for repository administrators
-marketplace graphic — show secrets
-
-
-
-The modernapps.ninja website is supported through a [hugo](https://gohugo.io/) framework.
-
 
 
 * Benefits for contributors and administrators
