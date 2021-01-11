@@ -18,8 +18,11 @@ A electic journey through the virtual world of modern applications, AI, and soft
 
 ## Physcial World Adventures
 
+* Helicopters - learning to fly
+* Living the Van Life
+* Running
 * Mountaineering
 * Sailing
-* Running
-* Living the Van Life
+
+
 
