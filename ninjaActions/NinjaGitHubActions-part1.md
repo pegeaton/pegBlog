@@ -28,8 +28,8 @@ Automation is necessary to ensure consistent operations and rapid delivery of so
 * GitHub Actions workflow run on GitHub hosted virtual machines or self-hosted machines
 
 As students and practioners of Cloud Native technologies, members often contribute lab guides for a variety of technology areas. 
-Contributors submit content to the GitHub repository and are engaged in a gitops process. Contributions take many different forms including: creating issue tickets, resolving issues, making pull requests, creating GitHub Actions to support CI/CD, technical writing, and code development. 
-The experiential learning is a key principle of the program.  Providing members an opportunity to advance not only their cloud native knowledge but practice gitops skills by actively engaging in the community. 
+Contributors submit content to the GitHub repository and are engaged in continuous integration processes. Contributions take many different forms including: creating issue tickets, resolving issues, making pull requests, creating GitHub Actions to support CI/CD, technical writing, and code development. 
+The experiential learning is a key principle of the program.  Providing members an opportunity to advance not only their cloud native knowledge but practice skills by actively engaging in the community. 
 
 ## GitHub Actions
 [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate tasks within a repository and execution is triggered by events. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
