@@ -6,12 +6,13 @@ A electic journey through the virtual world of modern applications, AI, and soft
 ### Modern Applications
 * [GitHub Actions in the Modern Apps Ninja Repository](ninjaActions/NinjaGitHubActions.md)
 
-## Artificial Intelligence
+### Artificial Intelligence
 
 ### Constraint-Based Reasoning
 * Collaborative Constraint-Based Reasoning
 
 ### Software Development
+
 
 ## Physcial World Adventures
 
