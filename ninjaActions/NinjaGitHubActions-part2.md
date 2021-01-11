@@ -1,3 +1,5 @@
+# Part2: Dive Deeper into GitHub Actions
+GitHub Actions workflows are code so we need to consider versioning, troubleshooting and test the code. 
 
 ## Examples: Modern Apps Ninja GitHub Actions
 * Workflow Runner
@@ -17,6 +19,4 @@
 
 3-4 graphics
 
-## References
-* References and Resources used in the article
-* Recommendations for further reading
+
