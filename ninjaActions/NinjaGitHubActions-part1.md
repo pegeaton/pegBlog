@@ -84,6 +84,6 @@ As we begin to use GitHub Actions in a production environment, the workflow is a
 
 ## Summary
  
-Modern Apps Ninja program uses GitHub Actions in the repository to support the software lifecycle of program assets. This is all great, but GitHub Actions workflows are code so we need to consider versioning, troubleshooting and test the code. Stay-tuned - part 2 covers these areas. 
+Modern Apps Ninja program uses GitHub Actions in the repository to support the software lifecycle of program assets. This is all great, but GitHub Actions workflows are code so we need to consider versioning, troubleshooting and test the code. Stay-tuned - part 2 covers these areas as we step through building and testing a workflow.
 
 
