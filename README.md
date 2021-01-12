@@ -7,7 +7,7 @@ A electic journey through the virtual world of modern applications, AI, and soft
 * [GitHub Actions in the Modern Apps Ninja Repository](ninjaActions/NinjaGitHubActions.md)
 
 ### Artificial Intelligence
-#### Constraint-Based Reasoning
+* Constraint-Based Reasoning
 * Collaborative Constraint-Based Reasoning
 * Machine Learning
 * Greedy Algorithms
@@ -15,6 +15,7 @@ A electic journey through the virtual world of modern applications, AI, and soft
 
 ### Software Development
 * SDLC: continous feedback loops
+* 12 factor & gitops
 
 
 ## Physcial World Adventures
