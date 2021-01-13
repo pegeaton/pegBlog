@@ -1,6 +1,22 @@
 # Part2: Dive Deeper into GitHub Actions -- Work in Progress
 GitHub Actions workflows are code so we need to consider versioning, troubleshooting and test the code. 
 
+Let's take a hands-on approach and walk-through this together.
+1. Create a GitHub account (https://github.com) (if you have not done so already.)
+<img>
+
+2. Create a samples repository for our testing. 
+
+<img>
+
+3. Create a file called hello.go containg the following go code.\
+
+
+<img>
+
+
+
+
 ## Examples: Modern Apps Ninja GitHub Actions
 * Workflow Runner
 * Handling Secrets
