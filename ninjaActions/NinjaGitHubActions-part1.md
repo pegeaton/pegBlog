@@ -5,17 +5,14 @@ In this blog, we explore GitHub Actions and GitHub Actions in the Modern Apps Ni
 * GitHub Actions Marketplace: An Ecosytem of GitHub Actions
 
 ## Modern Apps Ninja Community and Repository
-The [Modern Apps Ninja](https://modernapps.ninja/) learning community consists of students and professional cloud native practitioners, learning and working together to apply new cloud native technologies skills. A collaborative, community-driven approach to developing and curating content is fundamental to the program mission.  Community members develop the key content, including courses, labs and hackathons focused on modern applications and application platforms.  Experiential learning opportunities are embedded throughout courses and on-going administration of the program.
+The [Modern Apps Ninja](https://modernapps.ninja/) learning community consists of students and professional cloud native practitioners, learning and working together to apply new cloud native technologies skills. A collaborative, community-driven approach to developing and curating content is fundamental to the program mission.  Community members develop the key content, including courses, labs and hackathons focused on modern applications and application platforms.  Experiential learning opportunities are embedded throughout courses and on-going administration of the program. 
 
 ### GitHub 
-[GitHub](https://github.com) is more than a source code control system, it is truly a collaboration platform. GitHub is well documented and there are many different tutorials to help you get started.  One of my favorites is the [GitHub Learning Lab](https://lab.github.com/). Check it out and join the [Modern Apps Ninja](https:https://modernapps.ninja/) community!
+[GitHub](https://github.com) is more than a source code control system, it is truly a collaboration platform. GitHub is well documented and there are many different tutorials to help you get started.  One of my favorites is the [GitHub Learning Lab](https://lab.github.com/). Check it out, create a GitHub account, and join the [Modern Apps Ninja](https:https://modernapps.ninja/) community!
 
 ### Modern Apps Ninja GitHub repository
 The content, membership, and overall [Modern Apps Ninja](https://modernapps.ninja/) program is supported through GitHub.  The [Modern Apps Ninja GitHub repository](https://github.com/ModernAppsNinja/modernappsninja.github.io) is a public repository available for anyone to view; the repository contains lab guides, course content, and administrative materials.
 
-<!---
-![Modern Apps Ninja Repository](../images/modernapps-top-level.png)
--->
 <img src="../images/modernapps-top-level.png" height="350" width="600" alt="hello-action">
 
 In addition, the [modernapps.ninja](https://lms.modernapps.ninja/) site is the frontend for the modernapps.ninja learning management system (an edX platform) used to support delivering some of the free courses. The power and complexity of leveraging multiple systems is demonstrated throughout the site. 
@@ -33,13 +30,16 @@ Experiential learning is a key principle of the program; providing members an op
 ## GitHub Actions
 [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) are powerful workflow tools built right into GitHub. GitHub Actions workflows are used to automate execution of tasks triggered by events within a repository. GitHub Actions support many different types of event which trigger workflows, including push, pull_request, issues, etc. 
 
+GitHub Actions are located in a subdirectory within a repository. Many different types of events within the repository can trigger an action to runner. 
+Workflows are located in a .github/workflows directory within a repository; the definition file uses YAML syntax.  The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issue creation, etc.
+
+
+<img src="../images/diagramDirectory.png" height="350" width="600" alt="hello-action">
+
+
 Let's take a look at the structure of a simple GitHub Actions workflow that does two things: (1) runs a bash command to echo the classic "Hello World!" statement and (2) runs a go program to display "Hello World!".  The purpose is to get a sense of the major parts of the anatomy and understand the power of and flexibility of each area of the workflow. We continue to dive deeper into these areas in subsequent articles. 
 
-<!---
-![hello-action.yml](../images/hello-action.png)
--->
-
-<img src="../images/hello-action.png" height="350" width="600" alt="hello-action" style="border:3px solid black">
+<img src="../images/hello-action.png" height="350" width="600" alt="hello-action">
 
 As you can see in the graphic, the file contains:
 * the name of the GitHub Actions: hello-sample 
@@ -50,7 +50,7 @@ As you can see in the graphic, the file contains:
 * uses: checks out the repository (or download and install packages)
 * run: indicates code to execute
 
-Workflows are located in a .github/workflows directory within a repository; the definition file uses YAML syntax.  The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issue creation, etc.
+
 
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. The following graphics show examples of GitHub Actions for secrets.
