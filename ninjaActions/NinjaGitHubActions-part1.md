@@ -33,9 +33,7 @@ Experiential learning is a key principle of the program; providing members an op
 GitHub Actions are located in a subdirectory within a repository. Many different types of events within the repository can trigger an action to runner. 
 Workflows are located in a .github/workflows directory within a repository; the definition file uses YAML syntax.  The workflow YAML file definitions have an enormous set of options to support CI/CD pipelines. For example, there are many different event types to trigger execution, including push, pull-requests, issue creation, etc.
 
-
-<img src="../images/diagramDirectory.png" height="350" width="600" alt="hello-action">
-
+<img src="../images/diagramDirectory.png" height="350" width="600" alt="diagramDirectory">
 
 Let's take a look at the structure of a simple GitHub Actions workflow that does two things: (1) runs a bash command to echo the classic "Hello World!" statement and (2) runs a go program to display "Hello World!".  The purpose is to get a sense of the major parts of the anatomy and understand the power of and flexibility of each area of the workflow. We continue to dive deeper into these areas in subsequent articles. 
 
@@ -56,9 +54,6 @@ As you can see in the graphic, the file contains:
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. The following graphics show examples of GitHub Actions for secrets.
 
 ### GitHub Marketplace Secrets Example
-<!---
-![GitHub Marketplace Example](../images/github-actions-marketplace-secrets.png)
--->
 <img src="../images/github-actions-marketplace-secrets.png" height="350" width="500" alt="marketplace secrets pic">
 
 The marketplace contains a variety of contributions supporting the [hugo](https://gohugo.io/) framework (static website generator). 
