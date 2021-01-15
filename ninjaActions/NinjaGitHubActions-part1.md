@@ -68,7 +68,7 @@ The deployment of the modernapps.ninja website leverages a [hugo](https://gohugo
 Here is a screenshot of the GitHub Actions description for the hugo build.
 <img src="../images/hugobuild.png" height="350" width="500" alt="hugo-build.yml">
 
-As we begin to use GitHub Actions in a production environment, the workflow is a little more complex:
+As we begin to use GitHub Actions in a production environment, the workflow is a little more complex. Notice the following:
 * this workflow is triggered by a push to the main branch of the ninja repository (not on push to other branches)
 * a specific ubuntu version is specified as the build machine type; this ensures the repository is run on a matching os version
 * the uses: checkout ensures subdirectories in the repository are loaded
