@@ -1,19 +1,32 @@
 # Part2: Dive Deeper into GitHub Actions -- Work in Progress
 GitHub Actions workflows are code so we need to consider versioning, troubleshooting and test the code. 
 
-Let's take a hands-on approach and walk-through this together.
+
+
+## Create a simple test program written in go
+Let's take a hands-on approach and walk-through this together. GitHub documentation (https://docs.github.com/) is available as a reference.
+
 1. Create a GitHub account (https://github.com) (if you have not done so already.)
-<img>
 
-2. Create a samples repository for our testing. 
+2. Create a samples repository with a README.md file. 
 
-<img>
+3. Create a file called hello.go within your samples repository containing the following code:
 
-3. Create a file called hello.go containg the following go code.\
+package main
 
+import (
+	"fmt"
+)
 
-<img>
+func main() {
+	fmt.Println("Hello, world.")
+}
 
+This code will be run by the workflow on a push operation.
+
+## create a simple GitHub Action
+1. Create a workflow directory within your repository containing a GitHub Action file hello-action.yml 
+2. 
 
 
 
