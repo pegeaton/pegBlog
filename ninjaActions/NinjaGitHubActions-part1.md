@@ -48,8 +48,6 @@ As you can see in the graphic, the file contains:
 * uses: checks out the repository (or download and install packages)
 * run: indicates code to execute
 
-
-
 ## GitHub Marketplace: An Ecosytem of GitHub Actions
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. The following graphics show examples of GitHub Actions for secrets.
 
