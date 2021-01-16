@@ -14,20 +14,20 @@ Let's take a hands-on approach and walk-through this together. GitHub documentat
 
 3. Create a file called hello.go within your samples repository containing the following code:
 
-   	package main
+   		package main
 
-		import (
+			import (
 
-			"fmt"
+				"fmt"
 
-		)
+			)
 
 
-		func main() {
+			func main() {
 
-			fmt.Println("Hello, world.")
+				fmt.Println("Hello, world.")
 
-		}
+			}
 
 This code will be run by the workflow on a push operation.
 
