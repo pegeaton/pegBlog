@@ -1,4 +1,4 @@
-# Part2: Dive Deeper into GitHub Actions -- Work in Progress
+# Part2: Dive Deeper into GitHub Actions
 
 Let's take a hands-on approach and walk-through creating the hello world program and GitHub Actions workflow together.  The GitHub documentation (https://docs.github.com/) is available as a reference as needed throughout the exercise.
 
@@ -8,13 +8,13 @@ In this excercise you will create a GitHub repository containing three files: RE
 
 ## 1. Create a simple test program written in go
 
-1. Create a GitHub account (https://github.com) (if you have not done so already.)
+1.1 Create a GitHub account (https://github.com) (if you have not done so already.)
 
-2. Create a *samples* repository 
+1.1 Create a *samples* repository 
 
-2. Create a *README.md* file (we will use this later) for the repository.
+2.1 Create a *README.md* file (we will use this later) for the repository.
 
-3. Create a file called *hello.go* within your samples repository containing the following code:
+3.1 Create a file called *hello.go* within your samples repository containing the following code:
 
    		package main
 			import (
