@@ -17,9 +17,7 @@ Let's take a hands-on approach and walk-through this together. GitHub documentat
    		package main
 
 			import (
-
 				"fmt"
-
 			)
 
 
