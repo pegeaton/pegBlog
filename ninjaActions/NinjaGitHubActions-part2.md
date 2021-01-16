@@ -6,13 +6,20 @@ In this excercise you will create a GitHub repository containing three files: RE
 
 <img src="../images/part2-samples.png" height="350" width="600" alt="directory structure">
 
-## 1. Create a simple test program written in go
+## 1. Create a GitHub Account
+Create a GitHub account, if you have not done so already.  
 
-1.1 Create a GitHub account (https://github.com) (if you have not done so already.)
+In our example, the account is **pegeaton**
 
-1.1 Create a *samples* repository 
+
+## 1. Create a repository in your GitHub account
+Create a *samples* repository 
 
 2.1 Create a *README.md* file (we will use this later) for the repository.
+## 1. Create a simple test program written in go
+
+
+
 
 3.1 Create a file called *hello.go* within your samples repository containing the following code:
 
