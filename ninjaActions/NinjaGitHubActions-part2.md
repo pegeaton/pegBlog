@@ -1,10 +1,12 @@
 # Part2: Dive Deeper into GitHub Actions -- Work in Progress
-GitHub Actions workflows are code so we need to consider versioning, troubleshooting and test the code. 
 
+Let's take a hands-on approach and walk-through creating the hello world program and GitHub Actions workflow together.  The GitHub documentation (https://docs.github.com/) is available as a reference as needed throughout the exercise.
 
+In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The files are structured as shown in the following diagram:
 
-## Create a simple test program written in go
-Let's take a hands-on approach and walk-through this together. GitHub documentation (https://docs.github.com/) is available as a reference.
+<img src="../images/modernapps-top-level.png" height="350" width="600" alt="hello-action">
+
+## 1. Create a simple test program written in go
 
 1. Create a GitHub account (https://github.com) (if you have not done so already.)
 
