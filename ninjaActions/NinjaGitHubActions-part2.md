@@ -4,7 +4,7 @@ Let's take a hands-on approach and walk-through creating the hello world program
 
 In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The files are structured as shown in the following diagram:
 
-<img src="../images/modernapps-top-level.png" height="350" width="600" alt="hello-action">
+<img src="../images/part2-samples.png" height="350" width="600" alt="directory structure">
 
 ## 1. Create a simple test program written in go
 
