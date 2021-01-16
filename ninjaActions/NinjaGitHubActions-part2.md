@@ -13,16 +13,15 @@ In our example, the account is **pegeaton**
 
 
 ## 2. Create a repository 
-2.1 Create a **samples** repository within your GitHub account.  The repository is used to store your files.
+Create a **samples** repository within your GitHub account.  The repository is used to store your files.
 
 ## 2. Create a README.md within the repository 
 Create a *README.md* file (we will use this later) in the repository containing the following:
+
 		# Samples Repository
 		This repository contains examples:
-			* hello.go code example
-			* hello-action.yml example
-		
-	
+		* hello.go code example
+		* hello-action.yml example
 
 ## 3. Create a simple test program written in go
 Create a file called *hello.go* within your samples repository containing the following code:
@@ -42,9 +41,19 @@ This code will be run by the GitHub Action workflow on a push operation.
 Create a workflow directory within your repository called *.github/workflows*
 
 ## 5. create a simple GitHub Actions workflow
-Create a file called *hello-action.yml* within the workflows diretory (.github/workflows/hello-action.yml)
+Create a file called *hello-action.yml* within the workflows directory (.github/workflows/hello-action.yml)
+containing the following code:
 
-4.3 show screen shot 
+	name: hello-sample
+	on: [push]
+	  jobs:
+  	    echo-hello:
+    		runs-on: ubuntu-latest
+    		steps:
+      		- uses: actions/checkout@v2
+      		- uses: actions/setup-node@v1
+      		- run: echo "Hello code"
+      		- run: go run hello.go    
 
 
 
