@@ -12,15 +12,12 @@ Create a GitHub account, if you have not done so already.
 In our example, the account is **pegeaton**
 
 
-## 1. Create a repository in your GitHub account
-Create a *samples* repository 
+## 2. Create a repository 
+1.1 Create a **samples** repository within your GitHub account.  The repository is used to store your files.
 
-2.1 Create a *README.md* file (we will use this later) for the repository.
-## 1. Create a simple test program written in go
+1.2 Create a *README.md* file (we will use this later) in the repository.
 
-
-
-
+## 3. Create a simple test program written in go
 3.1 Create a file called *hello.go* within your samples repository containing the following code:
 
    		package main
@@ -32,9 +29,9 @@ Create a *samples* repository
 				fmt.Println("Hello, world.")
 			}
 
-This code will be run by the workflow on a push operation.
+This code will be run by the GitHub Action workflow on a push operation.
 
-## create a simple GitHub Action
+## 4. create a simple GitHub Action
 1. Create a workflow directory within your repository called *.github/workflows*
 
 1. Create a file called *hello-action.yml* within the workflows diretory (.github/workflows/hello-action.yml)
