@@ -2,7 +2,7 @@
 
 Let's take a hands-on approach and walk-through creating the hello world program and GitHub Actions workflow together.  The GitHub documentation (https://docs.github.com/) is available as a reference as needed throughout the exercise.
 
-In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The files are structured as shown in the following diagram:
+In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
 
 <img src="../images/part2-samples.png" height="350" width="600" alt="directory structure">
 
@@ -13,12 +13,19 @@ In our example, the account is **pegeaton**
 
 
 ## 2. Create a repository 
-1.1 Create a **samples** repository within your GitHub account.  The repository is used to store your files.
+2.1 Create a **samples** repository within your GitHub account.  The repository is used to store your files.
 
-1.2 Create a *README.md* file (we will use this later) in the repository.
+## 2. Create a README.md within the repository 
+Create a *README.md* file (we will use this later) in the repository containing the following:
+		# Samples Repository
+		This repository contains examples:
+			* hello.go code example
+			* hello-action.yml example
+		
+	
 
 ## 3. Create a simple test program written in go
-3.1 Create a file called *hello.go* within your samples repository containing the following code:
+Create a file called *hello.go* within your samples repository containing the following code:
 
    		package main
 			import (
@@ -31,12 +38,13 @@ In our example, the account is **pegeaton**
 
 This code will be run by the GitHub Action workflow on a push operation.
 
-## 4. create a simple GitHub Action
-1. Create a workflow directory within your repository called *.github/workflows*
+## 4. create directory to contain the GitHub Actions
+Create a workflow directory within your repository called *.github/workflows*
 
-1. Create a file called *hello-action.yml* within the workflows diretory (.github/workflows/hello-action.yml)
+## 5. create a simple GitHub Actions workflow
+Create a file called *hello-action.yml* within the workflows diretory (.github/workflows/hello-action.yml)
 
-1. show screen shot 
+4.3 show screen shot 
 
 
 
