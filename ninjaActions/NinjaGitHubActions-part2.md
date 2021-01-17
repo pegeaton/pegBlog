@@ -48,12 +48,22 @@ containing the following code:
 	on: [push]
 	  jobs:
   	    echo-hello:
-    		runs-on: ubuntu-latest
+    	      runs-on: ubuntu-latest
     		steps:
       		- uses: actions/checkout@v2
       		- uses: actions/setup-node@v1
       		- run: echo "Hello code"
       		- run: go run hello.go    
+
+
+
+## Actions
+
+The Actions tab in GitHub displays the GitHub Actions runner.
+
+<img src="../images/actions-tab.png" height="350" width="600" alt="actions tab">
+
+The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
 
 
