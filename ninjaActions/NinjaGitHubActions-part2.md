@@ -63,10 +63,16 @@ Your workflows directory may look like the following after creating the file:
 
 ## Actions
 
-The Actions tab in GitHub displays the GitHub Actions runner and results of running the action.
-The *on: [push]* indicates the action will be run on a push event within the repository. The commit of the hello-action.yml is a push event that triggered the action.  We can view the result of the push on the Actions tab. 
+Select the Actions tab in the samples repository.
 
 <img src="../images/actions-tab.png" height="350" width="700" alt="actions tab">
+
+Then select the *hello-action.yml* file. This displays the GitHub Actions runner and results of running the action.
+
+
+
+
+Notice the *on: [push]* indicates the action will be run on a push event within the repository. The commit of the hello-action.yml is a push event that triggered the action.  We can view the result of the push on the Actions tab. 
 
 The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
