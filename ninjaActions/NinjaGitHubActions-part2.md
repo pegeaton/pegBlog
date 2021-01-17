@@ -56,13 +56,15 @@ containing the following code:
       		- run: echo "Hello code"
       		- run: go run hello.go    
 
+Your workflows directory may look like the following after creating the file:
+
+<img src="../images/workflow-dir.png" height="350" width="600" alt="actions tab">
 
 
 ## Actions
 
 The Actions tab in GitHub displays the GitHub Actions runner and results of running the action.
 
-<img src="../images/actions-tab.png" height="350" width="600" alt="actions tab">
 
 The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
