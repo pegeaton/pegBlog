@@ -1,5 +1,5 @@
 #  Variations on Adventure
-A electic journey through the virtual world of modern applications, AI, and software development; physcial world adventures mountaineering, sailing, running, and living the van life.
+A eclectic journey through the virtual world of modern applications, AI, and software development; physical world adventures mountaineering, sailing, running, and living the van life.
 
 ## Virtual World Adventures
 
@@ -10,7 +10,7 @@ A electic journey through the virtual world of modern applications, AI, and soft
 * Constraint-Based Reasoning
 * Collaborative Constraint-Based Reasoning
 * Machine Learning
-* Greedy Algorithms
+* NP Complete Problems and Greedy Algorithms
 
 
 ### Software Development
