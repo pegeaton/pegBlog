@@ -5,7 +5,7 @@ This set of exercises assumes the reader has used a source code control system l
 
 In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
 
-<img src="../images/part2-samples.png" height="350" width="600" alt="directory structure">
+<img src="../images/part2-samples.png" alt="directory structure">
 
 ## 1. Create a GitHub Account
 Create a GitHub account, if you have not done so already.  
@@ -58,7 +58,7 @@ containing the following code:
 
 Your workflows directory may look like the following after creating the file:
 
-<img src="../images/workflow-dir.png" height="350" width="700" alt="workflow dir">
+<img src="../images/workflow-dir.png" alt="workflow dir">
 
 Remember this action runs on *any* push within the repository therefore the commit of the file triggered the workflow! Let's take a look at the run in the next section and be sure to **disable the workflow** since this is only a demonstration and you don't really want it to run with every push. 
 
