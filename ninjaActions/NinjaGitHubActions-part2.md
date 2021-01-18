@@ -62,7 +62,7 @@ Your workflows directory may look like the following after creating the file:
 
 Remember this action runs on *any* push within the repository therefore the commit of the file triggered the workflow! Let's take a look at the run in the next section and be sure to **disable the workflow** since this is only a demonstration and you don't really want it to run with every push. 
 
-## Reviewing GitHub Actions Activity
+## 7. Reviewing GitHub Actions Activity
 
 Select the Actions tab in the samples repository.
 
@@ -94,30 +94,35 @@ A badge can be created and used to watch the status of workflow runs.  For our e
 #### 3. Paste in README.md (pushing the change to the README.md file will kickoff the workflow.)
 <img src="../images/readme-edit.png" alt="edit readme">
 
-The result
+#### 4. The README.md with the badge
 
 <img src="../images/readme-result.png" alt="readme with status badge">
 
 ## Disable the workflow.
+Disable the workflow to avoid running it on every push event. 
 
 
 
-## Examples: Modern Apps Ninja GitHub Actions
-* Workflow Runner
-* Handling Secrets
-* Versioning
-* Troubleshooting GitHub Actions
-* Testing GitHub Actions
-* Testing considerations
+## Other GitHub Topics
+### Handling Secrets
+
+https://docs.github.com/en/actions/reference/encrypted-secrets
+
+### Versioning
+### Testing GitHub Actions
 
 
-## Automated Assignment Evaluation
-1. Contributor completes assignment file
-2. Contributor submits a pull request for assignment file to the Modern Apps Ninja course repository
-3. GitHub Action verify-assignment is triggered to run
-3.1 If assignment results are correct the pull request is closed
-3.2 If the assignment results are incorrect the error is posted to the pull request for modification.
+## Exercise for the reader
+Here is a small problem for you to consider as a contributor to the Modern Apps Ninja program.
 
-3-4 graphics
+Members taking a course will work on an assignment based upon a file stored in the Modern Apps Ninja repository. 
+When the assignment is completed it needs to be graded automatically and the results provided back to the member and to the Ninja administrators. 
+
+How would you tackle this automation?
+
+Remember, a key principle is to encourage following GitOps principles.
+
+## Summary
+
 
 
