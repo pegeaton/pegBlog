@@ -84,9 +84,12 @@ The following image shows the execution of the steps in the workflow. Troublesho
 
 A badge can be created and used to watch the status of workflow runs.  For our example, let's add the badge to the samples/README.md page indicating the status of the excution of the workflow. 
 
-### 1. Generate a badge and copy the graphic.
+#### 1. Generate a badge and copy the graphic.
+<img src="../images/status-badge-create.png" alt="status-badge-create">
 
-### 2. Copy the graphic
+#### 2. Copy the graphic
+
+<img src="../images/status-badge-create.png" alt="status-badge-create">
 
 ### 3. Paste in README.md (pushing the change to the README.md file will kickoff the workflow.)
 
