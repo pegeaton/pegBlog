@@ -70,6 +70,10 @@ Select the Actions tab in the samples repository.
 
 Then select the *hello-action.yml* link to display the results of running the action.
 
+The job name is *echo-hello*
+
+<img src="../images/echo-hello.png" height="250" width="700" alt="echo hello job">
+
 
 
 
