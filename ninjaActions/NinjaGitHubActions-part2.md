@@ -5,7 +5,7 @@ This set of exercises assumes the reader has used a source code control system l
 
 In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
 
-<img src="../images/part2-samples.png" alt="directory structure">
+<img src="../images/part2-samples.png" alt="directory structure" title="Samples Repository Structure">
 
 ## 1. Create a GitHub Account
 Create a GitHub account, if you have not done so already.  
