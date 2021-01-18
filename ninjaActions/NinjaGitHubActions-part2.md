@@ -16,7 +16,7 @@ In our example, the account is **pegeaton**
 ## 2. Create a repository 
 Create a **samples** repository within your GitHub account.  The repository is used to store your files.
 
-## 2. Create a README.md within the repository 
+## 3. Create a README.md within the repository 
 Create a *README.md* file (we will use this later) in the repository containing the following:
 
 		# Samples Repository
@@ -24,7 +24,7 @@ Create a *README.md* file (we will use this later) in the repository containing 
 		* hello.go code example
 		* hello-action.yml example
 
-## 3. Create a simple test program written in go
+## 4. Create a simple test program written in go
 Create a file called *hello.go* within your samples repository containing the following code:
 
    		package main
@@ -38,10 +38,10 @@ Create a file called *hello.go* within your samples repository containing the fo
 
 This code will be run by the GitHub Action workflow on a push operation.
 
-## 4. create directory to contain the GitHub Actions
+## 5. create directory to contain the GitHub Actions
 Create a workflow directory within your repository called *.github/workflows*
 
-## 5. create a simple GitHub Actions workflow
+## 6. create a simple GitHub Actions workflow
 Create a file called *hello-action.yml* within the workflows directory (.github/workflows/hello-action.yml)
 containing the following code:
 
@@ -89,10 +89,14 @@ A badge can be created and used to watch the status of workflow runs.  For our e
 
 #### 2. Copy the graphic
 
-<img src="../images/status-badge-create.png" alt="status-badge-create">
+<img src="../images/copy-status-badge.png" alt="copy-status-badge">
 
-### 3. Paste in README.md (pushing the change to the README.md file will kickoff the workflow.)
+#### 3. Paste in README.md (pushing the change to the README.md file will kickoff the workflow.)
+<img src="../images/readme-edit.png" alt="edit readme">
 
+The result
+
+<img src="../images/readme-result.png" alt="readme with status badge">
 
 ## Disable the workflow.
 
