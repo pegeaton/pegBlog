@@ -5,14 +5,13 @@ This set of exercises assumes the reader has used a source code control system l
 
 In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
 
-<img src="../images/part2-samples.png" alt="directory structure" align="center" title="Samples Repository Structure">
+<img src="../images/part2-samples.png" alt="directory structure" title="Samples Repository Structure">
 
 
 ## 1. Create a GitHub Account
 Create a GitHub account, if you have not done so already.  
 
 In our example, the account is **pegeaton**
-
 
 ## 2. Create a repository 
 Create a **samples** repository within your GitHub account.  The repository is used to store your files.
@@ -75,21 +74,26 @@ The job name is *echo-hello*
 
 <img src="../images/echo-hello-job.png" alt="echo hello job">
 
-
-
-
-Notice the *on: [push]* indicates the action will be run on a push event within the repository. The commit of the hello-action.yml is a push event that triggered the action.  We can view the result of the push on the Actions tab. 
-
+Notice the *on: [push]* indicates the action will be run on a push event within the repository. The commit of the hello-action.yml is a push event that triggered the action.  
 
 
 The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
-<img src="../images/bash-run.png" alt="bash run">
-
-
-run code
-
+The following image shows the execution of the steps in the workflow. Troubleshooting is facilitated by walking through the steps as execution occurs.
 <img src="../images/bash-go-run.png" alt="bash go run">
+
+A badge can be created and used to watch the status of workflow runs.  For our example, let's add the badge to the samples/README.md page indicating the status of the excution of the workflow. 
+
+### 1. Generate a badge and copy the graphic.
+
+### 2. Copy the graphic
+
+### 3. Paste in README.md (pushing the change to the README.md file will kickoff the workflow.)
+
+
+## Disable the workflow.
+
+
 
 ## Examples: Modern Apps Ninja GitHub Actions
 * Workflow Runner
