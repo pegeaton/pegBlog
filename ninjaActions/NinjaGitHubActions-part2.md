@@ -66,9 +66,9 @@ Remember this action runs on *any* push within the repository therefore the comm
 
 Select the Actions tab in the samples repository.
 
-<img src="../images/actions-tab.png" height="400" width="700" alt="actions tab">
+<img src="../images/actions-tab.png" height="250" width="700" alt="actions tab">
 
-Then select the *hello-action.yml* file. This displays the GitHub Actions runner and results of running the action.
+Then select the *hello-action.yml* link to display the results of running the action.
 
 
 
