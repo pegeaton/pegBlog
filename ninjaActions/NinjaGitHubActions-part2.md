@@ -4,13 +4,9 @@ Let's take a hands-on approach and walk-through creating the hello world program
 This set of exercises assumes the reader has used a source code control system like GitHub to create repositories with source code. The GitHub documentation (https://docs.github.com/) is available as a reference as needed throughout the exercise.
 
 In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
-<div align="center">
-<figure>
-  <img src="../images/part2-samples.png" alt="directory structure" align="center" title="Samples Repository Structure">
-  
-  <figcaption>Samples Repository Structure</figcaption>
-</figure>
-</div>
+
+<img src="../images/part2-samples.png" alt="directory structure" align="center" title="Samples Repository Structure">
+
 
 ## 1. Create a GitHub Account
 Create a GitHub account, if you have not done so already.  
