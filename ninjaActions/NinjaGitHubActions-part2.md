@@ -66,13 +66,13 @@ Remember this action runs on *any* push within the repository therefore the comm
 
 Select the Actions tab in the samples repository.
 
-<img src="../images/actions-tab.png" height="250" width="700" alt="actions tab">
+<img src="../images/actions-tab.png" alt="actions tab">
 
 Then select the *hello-action.yml* link to display the results of running the action.
 
 The job name is *echo-hello*
 
-<img src="../images/echo-hello-job.png" height="250" width="700" alt="echo hello job">
+<img src="../images/echo-hello-job.png" alt="echo hello job">
 
 
 
@@ -83,7 +83,7 @@ Notice the *on: [push]* indicates the action will be run on a push event within 
 
 The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
-<img src="../images/bash-run.png" height="300" width="700" alt="bash run">
+<img src="../images/bash-run.png" alt="bash run">
 
 
 run code
