@@ -88,7 +88,7 @@ The runner is an application that executes the GitHub Actions jobs as defined in
 
 run code
 
-<img src="../images/bash-go-run.png" height="300" width="700" alt="bash go run">
+<img src="../images/bash-go-run.png" alt="bash go run">
 
 ## Examples: Modern Apps Ninja GitHub Actions
 * Workflow Runner
