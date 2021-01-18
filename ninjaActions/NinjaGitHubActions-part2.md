@@ -1,7 +1,7 @@
 # Part2: Dive Deeper into GitHub Actions
 
 Let's take a hands-on approach and walk-through creating the hello world program and GitHub Actions workflow together.  
-This set of exercises assumes the reader has used a source code control system like GitHub to create repositories with source code. The GitHub documentation (https://docs.github.com/) is available as a reference as needed throughout the exercise.
+The GitHub documentation (https://docs.github.com/) is available as a reference as needed.
 
 In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
 
