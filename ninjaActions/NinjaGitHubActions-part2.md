@@ -83,12 +83,12 @@ Notice the *on: [push]* indicates the action will be run on a push event within 
 
 The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
-<img src="../images/bash-run.png" height="250" width="700" alt="bash run">
+<img src="../images/bash-run.png" height="300" width="700" alt="bash run">
 
 
 run code
 
-<img src="../images/bash-go-run.png" height="250" width="700" alt="bash go run">
+<img src="../images/bash-go-run.png" height="300" width="700" alt="bash go run">
 
 ## Examples: Modern Apps Ninja GitHub Actions
 * Workflow Runner
