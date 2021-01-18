@@ -60,8 +60,9 @@ Your workflows directory may look like the following after creating the file:
 
 <img src="../images/workflow-dir.png" height="350" width="700" alt="workflow dir">
 
+Remember this action runs on *any* push within the repository therefore the commit of the file triggered the workflow! Let's take a look at the run in the next section and be sure to **disable the workflow** since this is only a demonstration and you don't really want it to run with every push. 
 
-## Actions
+## Reviewing GitHub Actions Activity
 
 Select the Actions tab in the samples repository.
 
@@ -73,6 +74,8 @@ Then select the *hello-action.yml* file. This displays the GitHub Actions runner
 
 
 Notice the *on: [push]* indicates the action will be run on a push event within the repository. The commit of the hello-action.yml is a push event that triggered the action.  We can view the result of the push on the Actions tab. 
+
+
 
 The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
