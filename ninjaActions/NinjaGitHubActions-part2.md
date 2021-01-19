@@ -103,6 +103,11 @@ Note:  the change to the README.md file will kickoff the workflow and update the
 Disable the workflow as shown in the following graphic to avoid running it on every push event:
 <img src="../images/disable-workflow.png" alt="disable workflow">
 
+## Summary
+
+Part 2 is focused on hands-on experience; creating GitHub Actions, understanding the structure and elements of workflows, and workflow execution.  
+
+
 ## Other GitHub Topics
 There are many other topics to explore regarding GitHub Actions used in the Modern Apps Ninja Repository. 
 
@@ -127,7 +132,4 @@ Submit a link to your solution as a feedback issue on the samples project.
 
 There are many different solutions with varying degrees of complexity.  Give the exercise a try and discover even more interesting features of GitHub Actions!
 
-## Summary
-
-Part 2 focused on hands-on experience; where you tackled creating an action and running workflows.  
 
