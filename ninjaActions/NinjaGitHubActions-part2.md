@@ -84,45 +84,47 @@ The following image shows the execution of the steps in the workflow. Troublesho
 
 A badge can be created and used to watch the status of workflow runs.  For our example, let's add the badge to the samples/README.md page indicating the status of the excution of the workflow. 
 
-#### 1. Generate a badge and copy the graphic.
+**1. Generate a badge and copy the graphic.**
 <img src="../images/status-badge-create.png" alt="status-badge-create">
 
-#### 2. Copy the graphic
+**2. Copy the graphic link**
 
 <img src="../images/copy-status-badge.png" alt="copy-status-badge">
 
-#### 3. Paste in README.md (pushing the change to the README.md file will kickoff the workflow.)
+**3. Paste the graphic link into the README.md file**
+Note:  the change to the README.md file will kickoff the workflow and update the status badge on the README.md page.
 <img src="../images/readme-edit.png" alt="edit readme">
 
-#### 4. The README.md with the badge
+**4. Resulting README.md page with the status badge**
 
 <img src="../images/readme-result.png" alt="readme with status badge">
 
-## Disable the workflow.
-Disable the workflow to avoid running it on every push event. 
-
-
+### Disable the workflow.
+Disable the workflow as shown in the following graphic to avoid running it on every push event:
 
 ## Other GitHub Topics
-### Handling Secrets
+There are many other topics to explore regarding GitHub Actions used in the Modern Apps Ninja Repository. 
 
-https://docs.github.com/en/actions/reference/encrypted-secrets
+Explore:
 
-### Versioning
-### Testing GitHub Actions
+* Handling Secrets: documentation on encrypted secrets (https://docs.github.com/en/actions/reference/encrypted-secrets)
+* Versioning: Use tags on actions are the recommend way for versioning actions.  See the documentation *Using release management for actions* (https://docs.github.com/en/actions/creating-actions/about-actions#using-release-management-for-actions)
+* Troubleshooting: enhance troubleshooting GitHub Actions by enabling debug logging (https://docs.github.com/en/actions/managing-workflow-runs/enabling-debug-logging)
 
-
-## Exercise for the reader
-Here is a small problem for you to consider as a contributor to the Modern Apps Ninja program.
+## Additional Exercise
+Here is a small problem for you to consider as a contributor and practice using GitHub.
 
 Members taking a course will work on an assignment based upon a file stored in the Modern Apps Ninja repository. 
 When the assignment is completed it needs to be graded automatically and the results provided back to the member and to the Ninja administrators. 
 
-How would you tackle this automation?
+How would you tackle this automation? Remember, a key principle is to encourage following GitOps principles.
 
-Remember, a key principle is to encourage following GitOps principles.
+Create a solution within your own repository.  
+Submit a link to your solution as a feedback issue on the samples project.
+
+There are many different solutions with varying degrees of complexity.  Give the exercise a try and discover even more interesting features of GitHub Actions!
 
 ## Summary
 
-
+Part 2 of this GitHub Actions series focused on hands-on experience; where you tackled creating an action and running workflows.  
 
