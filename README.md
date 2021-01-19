@@ -8,7 +8,7 @@ A eclectic journey through the virtual world of modern applications, AI, and sof
 
 ### Artificial Intelligence
 * Constraint-Based Reasoning
-* Collaborative Constraint-Based Reasoning
+* Distributed Systems and Collaborative Constraint-Based Reasoning
 * Machine Learning
 * NP Complete Problems and Greedy Algorithms
 
