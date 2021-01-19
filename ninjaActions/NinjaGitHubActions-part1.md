@@ -52,7 +52,7 @@ As you can see in the graphic, the file contains:
 The [GitHub Marketplace](https://github.com/marketplace) provides a venue for creators to share GitHub Actions with the GitHub community. The following graphics show examples of GitHub Actions for secrets.
 
 ### GitHub Marketplace Secrets Example
-<img src="../images/github-actions-marketplace-secrets.png" height="350" width="500" alt="marketplace secrets pic">
+<img src="../images/github-actions-marketplace-secrets.png" alt="marketplace secrets pic">
 
 The marketplace contains a variety of contributions supporting the [hugo](https://gohugo.io/) framework (static website generator). 
                                                           
