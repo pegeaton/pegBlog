@@ -1,4 +1,4 @@
-# Part2: Dive Deeper into GitHub Actions
+# Part 2: Dive Deeper into GitHub Actions
 
 Let's take a hands-on approach and walk-through creating the hello world program and GitHub Actions workflow together.  
 The GitHub documentation (https://docs.github.com/) is available as a reference as needed.
@@ -114,8 +114,9 @@ Explore:
 * GitHub Guides: learning path for a variety of tasks. (https://docs.github.com/en/actions/guides)
 
 ## Additional Exercise
-Here is a small problem for you to consider as a contributor and practice using GitHub.
+Here is a small problem for you to consider and to provide some practice with GitHub Actions.
 
+*Scenario - assignment grading*
 Members taking a course will work on an assignment based upon a file stored in the Modern Apps Ninja repository. 
 When the assignment is completed it needs to be graded automatically and the results provided back to the member and to the Ninja administrators. 
 
@@ -128,5 +129,5 @@ There are many different solutions with varying degrees of complexity.  Give the
 
 ## Summary
 
-Part 2 of this GitHub Actions series focused on hands-on experience; where you tackled creating an action and running workflows.  
+Part 2 focused on hands-on experience; where you tackled creating an action and running workflows.  
 
