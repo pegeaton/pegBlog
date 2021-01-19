@@ -118,14 +118,14 @@ There are many other topics to explore regarding GitHub Actions used in the Mode
 ### Additional Exercise
 Here is a small problem for you to consider and to provide some practice with GitHub Actions.
 
-*Scenario - assignment grading*
-Members taking a course will work on an assignment based upon a file stored in the Modern Apps Ninja repository. 
-When the assignment is completed it needs to be graded automatically and the results provided back to the member and to the Ninja administrators. 
+	*Scenario - assignment grading*
+	Members taking a course will work on an assignment based upon a file stored in the Modern Apps Ninja repository. 
+	When the assignment is completed it needs to be graded automatically and the results provided back to the member and to the Ninja administrators. 
 
-How would you tackle this automation? Remember, a key principle is to encourage following GitOps principles.
+	How would you tackle this automation? Remember, a key principle is to encourage following GitOps principles.
 
-Create a solution within your own repository.  
-Submit a link to your solution as a feedback issue on the samples project.
+	Create a solution within your own repository.  
+	Submit a link to your solution as a feedback issue on the samples project.
 
 There are many different solutions with varying degrees of complexity.  Give the exercise a try and discover even more interesting features of GitHub Actions!
 
