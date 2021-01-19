@@ -106,19 +106,16 @@ Disable the workflow as shown in the following graphic to avoid running it on ev
 ## Summary
 
 Part 2 is focused on hands-on experience; creating GitHub Actions, understanding the structure and elements of workflows, and workflow execution.  
-
-
-## Other GitHub Topics
 There are many other topics to explore regarding GitHub Actions used in the Modern Apps Ninja Repository. 
 
-Explore:
+### Topics to Explore:
 
 * Handling Secrets: documentation on encrypted secrets (https://docs.github.com/en/actions/reference/encrypted-secrets)
 * Versioning: Use tags on actions are the recommend way for versioning actions.  See the documentation *Using release management for actions* (https://docs.github.com/en/actions/creating-actions/about-actions#using-release-management-for-actions)
 * Troubleshooting: enhance troubleshooting GitHub Actions by enabling debug logging (https://docs.github.com/en/actions/managing-workflow-runs/enabling-debug-logging)
 * GitHub Guides: learning path for a variety of tasks. (https://docs.github.com/en/actions/guides)
 
-## Additional Exercise
+### Additional Exercise
 Here is a small problem for you to consider and to provide some practice with GitHub Actions.
 
 *Scenario - assignment grading*
