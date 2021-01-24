@@ -105,8 +105,7 @@ Disable the workflow as shown in the following graphic to avoid running it on ev
 
 ## Summary
 
-Part 2 is focused on hands-on experience; creating GitHub Actions, understanding the structure and elements of workflows, and workflow execution.  
-There are many other topics to explore regarding GitHub Actions used in the Modern Apps Ninja Repository. 
+Part 2 is focused on hands-on experience; creating GitHub Actions, understanding the structure and elements of workflows, and workflow execution.  In Part 3 of the series we explore more complex examples of GitHub Actions used in the Modern Apps Ninja Repository. 
 
 ### Topics to Explore:
 
