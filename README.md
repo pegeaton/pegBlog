@@ -21,7 +21,7 @@ A eclectic journey through the virtual world of modern applications, AI, and sof
 ## Physcial World Adventures
 
 * Helicopters - learning to fly
-* Living the Van Life
+* Van Life
 * Running
 * Mountaineering
 * Sailing
