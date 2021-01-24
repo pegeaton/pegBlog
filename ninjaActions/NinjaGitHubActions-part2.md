@@ -76,8 +76,7 @@ The job name is *echo-hello*
 
 Notice the *on: [push]* indicates the action will be run on a push event within the repository. The commit of the hello-action.yml is a push event that triggered the action.  
 
-
-The runner is an application that executes the GitHub Actions jobs as defined in the GitHub Actions workflow. The runner can be hosted as in this example; the runner *runs-on* an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
+The runner is an application that executes the jobs as defined in the GitHub Actions workflow. In this case, the runner is hosted (by GitHub) and the runner runs-on an ubuntu environment. (See the GitHub documentation for self-hosted runner.) 
 
 The following image shows the execution of the steps in the workflow. Troubleshooting is facilitated by walking through the steps as execution occurs.
 <img src="../images/bash-go-run.png" alt="bash go run">
