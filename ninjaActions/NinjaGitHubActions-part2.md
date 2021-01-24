@@ -3,7 +3,7 @@
 Let's take a hands-on approach and walk-through creating the hello world program and GitHub Actions workflow together.  
 The GitHub documentation (https://docs.github.com/) is available as a reference as needed.
 
-In this excercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
+In this exercise you will create a GitHub repository containing three files: README.md, hello.go, and hello-action.yml.  The file structure is shown in the following diagram:
 
 <img src="../images/part2-samples.png" alt="directory structure" title="Samples Repository Structure">
 
